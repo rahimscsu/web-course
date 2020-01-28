@@ -1,0 +1,40 @@
+/* -- -- --
+
+Hexadecimal = base 16
+RGB 
+-- red
+-- green 
+-- blue
+
+
+RGB: Base 10
+(R, G, B) - 0 - 255 
+
+
+RGBA: Another channel - Alpha makes it transparent
+R,G,B = 0 - 255
+A = 0 - 1 
+*/ 
+
+
+h1 {
+	color: #0000ff;
+	/*border-color: purple; 
+	border-width: 5px; 
+	border-style: solid; */
+
+	border: 8px dashed rgba(155, 66, 204, 0.6);
+}
+
+li	{
+	color: rgb(255, 153, 204);
+}
+
+h4 {
+	color: rgba(155, 66, 204, 0.6);
+	background: rgb(20, 40, 100);
+}
+
+body {
+	background: pink; 
+}
