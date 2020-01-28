@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form for Web Development Bootcamp</title>
+	<h2>Registeration Form</h2>
+</head>
+
+<body>
+	<form>
+
+		<p><b>Please enter your first name and last name</b></p>
+
+		<label for = "firstName">First Name: </label>
+		<input id = "firstName" type="text" placeholder="John" required>
+
+		<label for = "lastName">Last Name: </label>
+		<input id = "lastName" type="text" placeholder="Doe" required>
+
+		<br>
+
+		<p><b>Please enter your gender:</b></p>
+
+		<label for = "male">Male: </label>
+		<input id = "male" type="radio" name="gender" value="male" checked required>
+
+		<label for = "female">Female: </label>
+		<input id = "female" type="radio" name="gender" value="female">
+
+		<label for = "other">Other: </label>
+		<input id = "other" type="radio" name="gender" value="other">
+
+		<br>
+
+		<p><b>Please enter your email and password</b></p>
+
+		<label for = "email">Email:</label>
+		<input id = "email" type="email" placeholder="email" required>
+	
+		<label for = "password">Password:</label>
+		<input id = "password" type="password" placeholder="your password" maxlength="8" minlength="5" required>
+
+		<p>Birthday:</p>
+		
+		<select name="day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+		</select>
+
+		<select name="month">
+			<option>January</option>
+			<option>Feburary</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>September</option>
+			<option>October</option>
+			<option>November</option>
+			<option>December</option>
+		</select>	
+
+		<select name="year">
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+			<option>2019</option>
+		</select>
+
+		<br>
+		<br>
+
+		<input type="checkbox" name="terms&conditions" value="agree" required> <b>I agree to the terms and conditions</b><br>
+
+		<br>
+
+		<input type="submit">
+
+	</form>
+</body>
+</html>
