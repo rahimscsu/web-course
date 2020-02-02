@@ -1,0 +1,27 @@
+/*Star Selector*/ 
+* {
+	border-color: orange; 
+}
+
+
+
+/*Descendant Selectors*/ 
+li {
+	color: purple; 
+}
+
+/*Adjacent Selectors*/ 
+p + ol {
+	border: 4px color: blue;  
+}
+
+/*Attribute Selector*/ 
+a[li = ".Selector"] {
+	background: blue;
+}
+
+/*
+li:nth-of-type(odd){
+	background-color: purple;
+}
+*/

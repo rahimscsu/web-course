@@ -1,0 +1,30 @@
+/*
+Element Selector
+li {
+	
+}
+class Selector 
+.hello {
+	
+}
+id selector 
+#name {
+	
+}
+*/
+
+li {
+	border: 2px solid red;
+}
+
+#special {
+	background-color: orange; 
+} 
+
+.completed {
+	text-decoration: line-through;
+}
+
+* {
+	border: 1px solid lightgrey;
+}
